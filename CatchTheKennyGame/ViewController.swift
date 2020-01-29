@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    //Project Add Git and Github
         lblScore.text = "Score: \(score)"
         //HighScore Check
         let storedHighScore = UserDefaults.standard.object(forKey: "HighScore")
